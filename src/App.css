@@ -1,0 +1,18 @@
+/* index.css */
+@import "tailwindcss";
+
+/* 🖥 Default Tailwind breakpoints + Custom breakpoint */
+@theme {
+  --breakpoint-sm:  640px;    /* 40rem */
+  --breakpoint-md:  768px;    /* 48rem */
+  --breakpoint-lg:  1024px;   /* 64rem */
+  --breakpoint-xl:  1280px;   /* 80rem */
+  --breakpoint-2xl: 1536px;   /* 96rem */
+
+  /* Custom breakpoint */
+   --breakpoint-mdl: 85rem; /* 1340px */
+   
+  --breakpoint-xsxl: 86rem;    /* 1376px approx */
+   --breakpoint-sxl: 90rem; /* 1440px */
+  
+}
