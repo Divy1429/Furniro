@@ -97,7 +97,7 @@ const InDetails = () => {
       <div className="w-full min-h-[500px] sm:min-h-[600px] mdl:min-h-[744px] border border-[#D9D9D9] flex flex-col items-center pb-4 sm:pb-6 mdl:pb-8">
         
         {/* Tab Navigation */}
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-[32px] mdl:gap-[52px] mb-[20px] sm:mb-[30px] mdl:mb-[37px] mt-[24px] sm:mt-[36px] mdl:mt-[48px] px-4">
+        <div className="flex flex-col  sm:flex-row gap-4 sm:gap-[32px] mdl:gap-[52px] mb-[20px] sm:mb-[30px] mdl:mb-[37px] mt-[24px] sm:mt-[36px] mdl:mt-[48px] px-4">
           <button  
             className={`text-[16px] sm:text-[20px] mdl:text-[24px] font-medium transition-colors duration-200 ${
               activeTab === 'description' ? 'text-black' : 'text-[#9F9F9F] hover:text-[#666666]'
@@ -125,18 +125,18 @@ const InDetails = () => {
         </div> 
 
         {/* Dynamic Content Area */}
-        <div className="flex flex-col gap-[15px] sm:gap-[25px] mdl:gap-[30px] max-w-[300px] sm:max-w-[600px] mdl:max-w-[1026px] w-full min-h-[120px] sm:min-h-[160px] mdl:min-h-[200px] mb-[20px] sm:mb-[30px] mdl:mb-[40px] px-4">
+        <div className="flex flex-col justify-between gap-[15px] sm:gap-[25px] mdl:gap-[30px] max-w-[300px] sm:max-w-[600px] mdl:max-w-[1026px] w-full min-h-[120px] sm:min-h-[160px] mdl:min-h-[200px]  mb-[20px] sm:mb-[30px] mdl:mb-[40px] ">
           {getContent()}
         </div>
 
         {/* Images */}
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-[20px] mdl:gap-[29px] px-4 max-w-full">
-          <div className="flex items-center justify-center max-w-full sm:max-w-[280px] mdl:max-w-[605px] bg-[#F9F1E7] w-full h-[200px] sm:h-[250px] mdl:h-[348px]">
-            <img src={whitesofa} alt="" className="object-contain w-full h-full p-2 sm:p-3 mdl:p-4" />
+          <div className="flex rounded-[10px] items-center justify-center max-w-full sm:max-w-[280px] md:max-w-[605px] md:w-full mdl:max-w-[605px] bg-[#F9F1E7] w-full h-[200px] sm:h-[250px] mdl:h-[348px]">
+            <img src={whitesofa} alt="" className="object-contain w-full h-full p-2 sm:p-3 " />
           </div>
 
-          <div className="flex items-center justify-center max-w-full sm:max-w-[280px] mdl:max-w-[605px] bg-[#F9F1E7] w-full h-[200px] sm:h-[250px] mdl:h-[348px]">
-            <img src={whitesofa2} alt="" className="object-contain w-full h-full p-2 sm:p-3 mdl:p-4" />
+          <div className="flex rounded-[10px] items-center justify-center max-w-full sm:max-w-[280px] md:max-w-[605px] md:w-full mdl:max-w-[605px] bg-[#F9F1E7] w-full h-[200px] sm:h-[250px] mdl:h-[348px]">
+            <img src={whitesofa2} alt="" className="object-contain w-full h-full p-2 sm:p-3 " />
           </div>
         </div>
         

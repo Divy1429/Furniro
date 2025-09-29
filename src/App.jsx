@@ -8,6 +8,8 @@ import Header from './components/Header/Header.jsx'
 
 import "./App.css"
 import Description from './components/Shop/Description/Description.jsx';
+import Compare from './components/Compare/Compare';
+import Cart from './components/Cart/Cart';
 
 const App = () => {
   return (
@@ -20,6 +22,9 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
              <Route path="/product/:id" element={<Description />} />
+             <Route path="/compare" element={<Compare />} />
+             <Route path="/cart" element={<Cart />} />
+
           </Routes>
           
           <Footer />

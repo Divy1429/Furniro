@@ -109,9 +109,9 @@ const DesDetails = () => {
           
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row mdl:flex-row w-full gap-3 sm:gap-4 mdl:gap-0 mdl:max-h-[64px] min-h-[64px] h-full mt-[24px] sm:mt-[32px] mdl:mt-[32px]">
-            <button className="text-[14px] sm:text-[16px] mdl:text-[16px] mdl:mr-[18px] flex gap-[20px] sm:gap-[35px] mdl:gap-[35px] items-center justify-center max-w-full sm:max-w-[123px] mdl:max-w-[123px] w-full h-[50px] sm:h-full mdl:h-full min-h-[64px] max-h-full mdl:max-h-[64px] border border-[#9F9F9F] hover:border-[#B88E2F] rounded-[8px] sm:rounded-[10px] mdl:rounded-[10px] font-normal">
+            <div className="text-[14px] sm:text-[16px] mdl:text-[16px] mdl:mr-[18px] flex gap-[20px] sm:gap-[35px] mdl:gap-[35px] items-center justify-center max-w-full sm:max-w-[123px] mdl:max-w-[123px] w-full h-[50px] sm:h-full mdl:h-full min-h-[64px] max-h-full mdl:max-h-[64px] border border-[#9F9F9F] hover:border-[#B88E2F] rounded-[8px] sm:rounded-[10px] mdl:rounded-[10px] font-normal">
               <button>-</button><button>1</button><button>+</button>
-            </button>
+            </div>
             <button className="text-[14px] sm:text-[16px] mdl:text-[16px] mdl:mr-[10px] flex items-center justify-center max-w-full sm:max-w-[215px] mdl:max-w-[215px] w-full h-[50px] sm:h-full mdl:h-full max-h-[64px] mdl:max-h-[64px] border min-h-[64px] max-h-full hover:bg-[#B88E2F] hover:border-[#B88E2F] rounded-[8px] sm:rounded-[10px] mdl:rounded-[10px] font-normal">
               Add To Cart
             </button>
@@ -124,9 +124,9 @@ const DesDetails = () => {
           <div className="w-full max-w-[605px] mdl:w-[605px] h-[1px] bg-gray-300 mt-[40px] sm:mt-[60px] mdl:mt-[60px]"></div>
 
           {/* Product Details */}
-          <div className="below-texts mt-[30px] sm:mt-[41px] mdl:mt-[41px] flex flex-col gap-[8px] sm:gap-[12px] mdl:gap-[12px]">
+          <div className="below-texts mb-[30px] lg:mb-0 mt-[30px] sm:mt-[41px] mdl:mt-[41px] flex flex-col gap-[8px] sm:gap-[12px] mdl:gap-[12px]">
             <div className="flex">
-              <span className="text-[14px] sm:text-[16px] mdl:text-[16px] mr-[40px] sm:mr-[61px] mdl:mr-[61px] font-normal text-[#9F9F9F]">SKU</span>
+              <span className="text-[14px] sm:text-[16px] mdl:text-[16px] mr-[40px] sm:mr-[61px] mdl:mr-[61px]  font-normal text-[#9F9F9F]">SKU</span>
               <span className="text-[14px] sm:text-[16px] mdl:text-[16px] mr-[12px] mdl:mr-[12px] font-normal text-[#9F9F9F]">:</span>
               <span className="text-[14px] sm:text-[16px] mdl:text-[16px] font-normal text-[#9F9F9F]">SS001</span>
             </div>

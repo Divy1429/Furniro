@@ -6,7 +6,7 @@ import Products from './../Description/Products';
 
 const Description = () => {
   return (
-    <div className="">
+    <div className="mx-auto overflow-y-hidden">
         <Bar />
         <DesDetails />
         <InDetails />
