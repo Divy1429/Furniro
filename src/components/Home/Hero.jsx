@@ -4,7 +4,7 @@ import "../../assets/image.png"
 
 const Hero = () => {
   return (
-    <div className="relative flex items-center justify-around ">
+    <div className="relative flex items-center justify-around max-sm:m-[10px]">
       <div className="img-cover bg-[url('/image.png')] min-h-auto  h-full  xl:h-[717px] w-full max-w-[1440px] bg-cover mx-auto flex flex-col items-center    xl:pl-[739px]  xl:pt-[153px]">
       
       <div className="rounded-[10px]  bg-[#FFF3E3] my-[10px]   content-box h-full max-sm:h-auto max-sm:max-h-none  max-h-[443px] w-full max-w-[643px] max-sm:px-[0.1em] px-[20px] xl:pl-[39px] py-[10px]  xl:pt-[62px] max-sm:mx-auto ">

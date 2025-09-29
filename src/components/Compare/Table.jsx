@@ -141,8 +141,8 @@ const SofaComparisonTable = () => {
   };
 
   return (
-    <div className="w-screen min-h-screen mt-[32px] sm:mt-[48px] lg:mt-[56px] mdl:mt-[64px] mb-[64px] sm:mb-[80px] lg:mb-[96px] mdl:mb-[112px] bg-white">
-      <div className="ml-[16px] sm:ml-[24px] lg:ml-[48px] mdl:ml-[96px] mr-[16px] sm:mr-[24px] lg:mr-[48px] mdl:mr-0">
+    <div className="w-full  max-sm:px-[10px] min-h-screen mt-[32px] sm:mt-[48px] lg:mt-[56px] mdl:mt-[64px] mb-[64px] sm:mb-[80px] lg:mb-[96px] mdl:mb-[112px] bg-white">
+      <div className="pl-[16px] sm:pl-[24px] lg:pl-[48px] mdl:pl-[96px] pr-[16px] sm:pr-[24px] lg:pr-[48px] mdl:pr-0">
         
         {/* Top Border - Responsive width */}
         <div 
@@ -322,7 +322,7 @@ const SofaComparisonTable = () => {
                 >
                   <button 
                     onClick={() => handleAddToCart(1)}
-                    className="bg-[#B88E2F] w-full sm:max-w-[180px] lg:max-w-[200px] mdl:max-w-[215px] flex py-[12px] sm:py-[14px] lg:py-[16px] mdl:py-[17px] px-[24px] sm:px-[32px] lg:px-[40px] mdl:px-[48px] justify-center items-center max-h-[48px] sm:max-h-[56px] lg:max-h-[60px] mdl:max-h-[64px] text-white hover:bg-[#A07A2A] transition-colors duration-200 text-[16px] sm:text-[18px] lg:text-[19px] mdl:text-[20px] font-normal"
+                    className="bg-[#B88E2F] w-full sm:max-w-[180px] lg:max-w-[200px] mdl:max-w-[215px] flex py-[12px] sm:py-[14px] lg:py-[16px] mdl:py-[17px] px-[24px] sm:px-[32px] lg:px-[40px] mdl:px-[48px] justify-center items-center max-h-[48px] sm:max-h-[56px] lg:max-h-[60px] mdl:max-h-[64px] text-white hover:bg-[#A07A2A] transition-colors duration-200 text-[16px] sm:text-[18px] lg:text-[19px] mdl:text-[20px] font-normal cursor-pointer"
                   >
                     Add To Cart
                   </button>
@@ -342,7 +342,7 @@ const SofaComparisonTable = () => {
                 >
                   <button 
                     onClick={() => handleAddToCart(2)}
-                    className="bg-[#B88E2F] w-full sm:max-w-[180px] lg:max-w-[200px] mdl:max-w-[215px] flex py-[12px] sm:py-[14px] lg:py-[16px] mdl:py-[17px] px-[24px] sm:px-[32px] lg:px-[40px] mdl:px-[48px] justify-center items-center max-h-[48px] sm:max-h-[56px] lg:max-h-[60px] mdl:max-h-[64px] text-white hover:bg-[#A07A2A] transition-colors duration-200 text-[16px] sm:text-[18px] lg:text-[19px] mdl:text-[20px] font-normal"
+                    className="bg-[#B88E2F] w-full sm:max-w-[180px] lg:max-w-[200px] mdl:max-w-[215px] flex py-[12px] sm:py-[14px] lg:py-[16px] mdl:py-[17px] px-[24px] sm:px-[32px] lg:px-[40px] mdl:px-[48px] justify-center items-center max-h-[48px] sm:max-h-[56px] lg:max-h-[60px] mdl:max-h-[64px] text-white hover:bg-[#A07A2A] transition-colors duration-200 text-[16px] sm:text-[18px] lg:text-[19px] mdl:text-[20px] font-normal cursor-pointer"
                   >
                     Add To Cart
                   </button>

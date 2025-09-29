@@ -90,7 +90,7 @@ const Hero = () => {
     <div className="w-full mx-auto">
       
       {/* MDL+ Layout (1370px+) */}
-      <div className="hidden mdl:flex w-screen bg-[#F9F1E7] h-[100px] items-center gap-[348px] justify-center mx-auto">
+      <div className="hidden mdl:flex max-sm:m-[10px] w-full bg-[#F9F1E7] h-[100px] items-center gap-[348px] justify-center mx-auto">
         <div className="flex items-center h-full relative">
           <div className="">
             <ul className="flex gap-[24px] mr-[30px]">
@@ -134,7 +134,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-[17px]">
             <span className="text-[20px] font-normal">Sort by</span>
-            <select className="h-[55px] w-full max-w-[188px] bg-white text-[20px] text-[#9F9F9F] pl-[30px] font-normal border-none outline-none">
+            <select className="h-[55px] w-full max-w-[188px] bg-white text-[20px] text-[#9F9F9F] pl-[20px] font-normal border-none outline-none appearance-none">
               <option value="default">Default</option>
               <option value="price-low">Price: Low to High</option>
               <option value="price-high">Price: High to Low</option>
@@ -186,7 +186,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-base font-normal">Sort by</span>
-                <select className="h-[45px] w-[140px] bg-white text-base text-[#9F9F9F] pl-3 font-normal rounded border-none outline-none">
+                <select className="h-[45px] w-[140px] bg-white text-base text-[#9F9F9F] pl-3 font-normal rounded border-none outline-none appearance-none">
                   <option value="default">Default</option>
                   <option value="price-low">Price: Low to High</option>
                   <option value="price-high">Price: High to Low</option>
@@ -240,7 +240,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-base font-normal">Sort by</span>
-                <select className="h-[50px] w-[160px] bg-white text-base text-[#9F9F9F] pl-4 font-normal border-none outline-none">
+                <select className="h-[50px] w-[160px] bg-white text-base text-[#9F9F9F] pl-4 font-normal border-none outline-none appearance-none">
                   <option value="default">Default</option>
                   <option value="price-low">Price: Low to High</option>
                   <option value="price-high">Price: High to Low</option>
@@ -291,7 +291,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-4">
               <span className="text-[18px] font-normal">Sort by</span>
-              <select className="max-h-[50px] max-w-[170px] h-full w-full bg-white text-[18px] text-[#9F9F9F] pl-4 font-normal border-none outline-none focus:ring-2 focus:ring-[#9F9F9F]">
+              <select className="max-h-[50px] max-w-[170px] h-full w-full bg-white text-[18px] text-[#9F9F9F] pl-4 font-normal border-none outline-none focus:ring-2 focus:ring-[#9F9F9F] appearance-none">
                 <option value="default">Default</option>
                 <option value="price-low">Price: Low to High</option>
                 <option value="price-high">Price: High to Low</option>

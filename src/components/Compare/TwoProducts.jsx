@@ -6,7 +6,7 @@ const TwoProducts = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-screen h-full flex justify-center items-center px-4 sm:px-6 lg:px-8 mdl:px-0">
+    <div className="w-full h-full flex justify-center items-center  px-[10px]">
       <div className="flex flex-col lg:flex-row mdl:flex-row  justify-center max-w-[1332px] mdl:max-w-[1332px] w-full mt-[20px] sm:mt-[25px] mdl:mt-[34px] gap-6 lg:gap-8 mdl:gap-0 ">
         
         {/* Text Section */}
@@ -14,7 +14,7 @@ const TwoProducts = () => {
           <span className="text-[20px] sm:text-[24px] mdl:text-[28px] font-medium max-w-none sm:max-w-[280px] lg:max-w-[200px] mdl:max-w-[223px] mx-auto lg:mx-0 mdl:mx-0">
             Go to Product page for more Products
           </span>
-          <button className="underline text-[16px] sm:text-[18px] mdl:text-[20px] text-center lg:text-left mdl:text-left font-medium text-[#727272]">
+          <button className="underline text-[16px] sm:text-[18px] mdl:text-[20px] text-center lg:text-left mdl:text-left font-medium text-[#727272] cursor-pointer">
             View More
           </button>
         </div>
@@ -122,7 +122,7 @@ const TwoProducts = () => {
           <div className="relative w-[200px] sm:w-[220px] mdl:w-[242px]">
             <button 
               onClick={() => setIsOpen(!isOpen)}
-              className="bg-[#B88E2F] text-[#FFFFFF] w-full rounded-[6px] flex items-center pl-3 sm:pl-4 mdl:pl-4 pr-2 sm:pr-3 mdl:pr-3 h-[35px] sm:h-[37px] mdl:h-[39px] justify-between hover:bg-[#A07A2A] transition-colors duration-200"
+              className="bg-[#B88E2F] text-[#FFFFFF] w-full rounded-[6px] flex items-center pl-3 sm:pl-4 mdl:pl-4 pr-2 sm:pr-3 mdl:pr-3 h-[35px] sm:h-[37px] mdl:h-[39px] justify-between hover:bg-[#A07A2A] transition-colors duration-200 cursor-pointer"
             >
               <span className="text-[12px] sm:text-[13px] mdl:text-[14px] font-semibold">Choose a Product</span>
               

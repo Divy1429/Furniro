@@ -6,7 +6,7 @@ import sample3 from "../../assets/sample3.png";
 
 const Inspiration = () => {
   return (
-    <div className="flex items-center justify-center px-4 max-sm:px-[15px] mt-[69px] w-full bg-[#FCF8F3] overflow-x-hidden">
+    <div className="flex items-center justify-center px-4 max-sm:px-[15px]  mt-[69px] w-full bg-[#FCF8F3] overflow-x-hidden">
       <div className="max-w-[1440px] w-full">
         <div className="min-h-[670px] w-full flex items-center max-lg:flex-col max-lg:gap-8">
 

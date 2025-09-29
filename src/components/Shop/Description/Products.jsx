@@ -11,9 +11,9 @@ import share1 from "../../../assets/share1.png";
 
 const Products = () => {
   return (
-    <div className="relative max-w-[1440px] w-full m-auto flex flex-col items-center mb-[80px]">
+    <div className="relative max-sm:px-[10px] overflow-hidden max-w-[1440px] w-full m-auto flex flex-col items-center mb-[80px]">
       <div className="max-w-[1236px]  w-full xl:max-h-[1084px] h-auto max-sm:mx-[40px] mt-[56px] flex flex-col items-center">
-        <span className="text-[36px] text-center text-[40px] font-medium">Related Products</span>
+        <span className="text-[36px] text-center font-medium">Related Products</span>
 
         <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1  max-sm:m-[8px] xl:mt-[32px] gap-[32px]">
           {[
@@ -22,7 +22,7 @@ const Products = () => {
             { img: i2, title: "Lolito", desc: "Luxury big sofa", price: "7.000.000", oldPrice: "14.000.000" },
             { img: i3, title: "Respira", desc: "Outdoor bar table and stool", price: "500.000" },
           ].map((item, index) => (
-            <div key={index} className="max-w-[285px] w-full h-[446px] mx-auto bg-[#F4F5F7] group relative overflow-hidden">
+            <div key={index} className="max-w-[285px] w-full h-[446px] mx-auto bg-[#F4F5F7] group relative ">
               <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col justify-center items-center max-sm:gap-1 gap-4 translate-y-full group-hover:translate-y-0">
                 <button className="bg-white hover:bg-[#B88E2F] text-[#B88E2F] hover:text-white transition-colors duration-200 py-2 px-6   w-[180px] text-base">
                   Add to cart

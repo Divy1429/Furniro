@@ -5,7 +5,7 @@ import dining from "../../assets/dining.png"
 
 const Categories = () => {
   return (
-    <div className="categories  justify-around relative grid grid-cols-1 place-items-center xl:flex-col items-center   max-w-screen pt-[57px] m-[8px] ">
+    <div className="categories  justify-around relative grid grid-cols-1 place-items-center xl:flex-col items-center   max-w-full pt-[57px] max-sm:m-[10px] ">
     <div className="h-full h-[685px] w-full max-w-[1183px] flex flex-col items-center  ">
         <div className="title flex max-sm:flex-cols-1 flex-col items-center mx-auto ">
         <span className=" text-[32px] text-center font-bold mx-auto">    

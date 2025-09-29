@@ -11,9 +11,9 @@ import share1 from "../../assets/share1.png";
 
 const Products = () => {
   return (
-    <div className="relative max-w-[1440px] w-full m-auto flex flex-col items-center mb-[80px]">
-      <div className="max-w-[1236px]  w-full xl:h-[1084px] h-auto max-sm:mx-[40px] mt-[56px] flex flex-col items-center">
-        <span className="text-[20px] text-center text-[40px] font-bold">Our Products</span>
+    <div className="  justify-center max-w-screen  w-full  flex flex-col items-center mb-[80px]">
+      <div className="max-w-[1236px]  w-full xl:h-[1084px] h-auto max-sm:mx-[40px] mt-[56px] flex flex-col justify-center items-center">
+        <span className="text-[20px] text-center  font-bold">Our Products</span>
 
         <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1  max-sm:m-[8px] xl:mt-[32px] gap-[32px]">
           {[

@@ -7,10 +7,10 @@ import Products from './../Description/Products';
 const Description = () => {
   return (
     <div className="mx-auto overflow-y-hidden">
-        <Bar />
-        <DesDetails />
-        <InDetails />
-        <Products />
+      <Bar />
+      <DesDetails />
+      <InDetails />
+      <Products />
     </div>
   )
 }

@@ -83,7 +83,7 @@ const BackgroundWrapper = () => {
         
       case pathname === '/contact':
         return {
-          title: 'Contact Us',
+          title: 'Contact',
           breadcrumbs: [
             { name: 'Home', path: '/', isActive: false },
             { name: 'Contact', path: '/contact', isActive: true }
@@ -92,10 +92,10 @@ const BackgroundWrapper = () => {
         
       default:
         return {
-          title: 'Page',
+          title: 'Blog',
           breadcrumbs: [
             { name: 'Home', path: '/', isActive: false },
-            { name: 'Page', path: pathname, isActive: true }
+            { name: 'Blog', path: pathname, isActive: true }
           ]
         };
     }
@@ -105,7 +105,7 @@ const BackgroundWrapper = () => {
 
   return (
     <div>
-      <div className="relative max-w-[1440px] max-h-[316px] w-full mx-auto">
+      <div className="relative  max-w-[1440px] max-h-[316px] w-full mx-auto ">
         {/* Background Image */}
         <img
           src={shop}

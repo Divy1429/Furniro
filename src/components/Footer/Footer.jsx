@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="relative w-full max-w-[1440px] min-h-[400px] sm:min-h-[450px] mdl:min-h-[505px]">
         
         {/* Top Border */}
-        <div className="w-full pt-6 sm:pt-8 mdl:pt-[58px]">
+        <div className="w-full  ">
           <div className="w-full h-0 border-t border-[#9F9F9F]"></div>
         </div>
 

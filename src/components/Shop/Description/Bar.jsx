@@ -15,8 +15,8 @@ const Bar = () => {
   const isProductPage = location.pathname.startsWith('/product/');
 
   return (
-    <div className="overflow-y-hidden w-screen bg-[#F9F1E7] min-h-[100px] flex items-center justify-center">
-      <div className="flex flex-wrap items-center max-w-[1440px] w-full justify-start px-4 sm:px-8 md:px-12 lg:px-[99px] py-4">
+    <div className=" w-full bg-[#F9F1E7] min-h-[100px] flex items-center justify-center">
+      <div className="flex flex-wrap  items-center max-w-[1440px] w-full justify-start px-4 sm:px-8 md:px-12 lg:px-[99px] py-4">
         
         {/* Home Navigation */}
         <div className="flex flex-wrap items-center gap-[14px] mr-[24px] mb-2">

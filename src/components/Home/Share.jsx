@@ -14,7 +14,7 @@ const Share = () => {
   return (
     <>
       {/* Slider for screens below 1024px */}
-      <div className="relative lg:hidden flex flex-col items-center justify-center mt-[30px] sm:mt-[44px] mb-[30px] sm:mb-[40px] px-4 w-full bg-[#FCF8F3]">
+      <div className="relative lg:hidden flex flex-col  items-center justify-center mt-[30px] sm:mt-[44px] mb-[30px] sm:mb-[40px] px-4 w-full bg-[#FCF8F3]">
         <div className="w-full max-w-[1200px]">
           
           {/* Header Section - Always Centered */}
@@ -22,7 +22,7 @@ const Share = () => {
             <span className="text-[16px] sm:text-[18px] md:text-[20px] font-semibold text-[#616161]">
               Share your setup with
             </span>
-            <span className="text-[28px] sm:text-[32px] md:text-[40px] font-bold text-[#3A3A3A] pt-1 sm:pt-[8px]">
+            <span className="text-[28px] break-all sm:text-[32px] md:text-[40px] font-bold text-[#3A3A3A] pt-1 sm:pt-[8px]">
               #FuniroFurniture
             </span>
           </div>
@@ -63,14 +63,14 @@ const Share = () => {
       </div>
 
       {/* Your Original Design for 1024px and above */}
-      <div className="relative hidden lg:flex items-center h-[780px] w-screen flex items-center justify-around mt-[59px] mb-[58px]">
+      <div className="relative hidden lg:flex items-center h-[780px] w-full flex items-center justify-around mt-[59px] mb-[88px]">
         <div className="h-[780px] w-[1440px] ">
           {/* Header Section - Always Centered */}
           <div className="flex flex-col items-center text-center">
             <span className="text-[20px] font-semibold text-[#616161]">
               Share your setup with
             </span>
-            <span className="text-[40px] font-bold text-[#3A3A3A] pt-[8px]">
+            <span className="text-[40px]  font-bold text-[#3A3A3A] pt-[8px]">
               #FuniroFurniture
             </span>
           </div>

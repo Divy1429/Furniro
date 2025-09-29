@@ -8,7 +8,7 @@ import Advertisement from './../Advertisement/Advertisement';
 
 const Shop = () => {
   return (
-    <div className="w-screen h-full overflow-y-hidden">
+    <div className="w-full  overflow-y-auto">
       <BackgroundWrapper />
         <Hero />
         <Products />
