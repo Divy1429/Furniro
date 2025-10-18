@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import asgaardsofa from "../../assets/shop/asgaardsofa.png"
-import outdoor1sofa from "../../assets/shop/outdoor1sofa.png"
+import asgaardsofa from "../../assets/Shop/asgaardsofa.png"
+import outdoor1sofa from "../../assets/Shop/outdoor1sofa.png"
 
 const TwoProducts = () => {
   const [isOpen, setIsOpen] = useState(false);

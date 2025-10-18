@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import whitesofa from "../../../assets/shop/whitesofa.png";
-import whitesofa2 from "../../../assets/shop/whitesofa2.png";
+import whitesofa from "../../../assets/Shop/whitesofa.png";
+import whitesofa2 from "../../../assets/Shop/whitesofa2.png";
 
 const InDetails = () => {
   const [activeTab, setActiveTab] = useState("description");

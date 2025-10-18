@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import sofaset from "../../../assets/shop/sofaset.png"
-import outdoorsofa from "../../../assets/shop/outdoorsofa.png"
-import stusofa from "../../../assets/shop/stusofa.png"
-import threesofa from "../../../assets/shop/threesofa.png"
-import asgaardsofa from "../../../assets/shop/asgaardsofa.png"
+import sofaset from "../../../assets/Shop/sofaset.png"
+import outdoorsofa from "../../../assets/Shop/outdoorsofa.png"
+import stusofa from "../../../assets/Shop/stusofa.png"
+import threesofa from "../../../assets/Shop/threesofa.png"
+import asgaardsofa from "../../../assets/Shop/asgaardsofa.png"
 import { useCart } from '../../Context/CartContext';
 
 
