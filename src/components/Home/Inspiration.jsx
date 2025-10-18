@@ -10,7 +10,7 @@ const Inspiration = () => {
       <div className="max-w-[1440px] w-full">
         <div className="min-h-[670px] w-full flex items-center max-lg:flex-col max-lg:gap-8">
 
-          {/* LEFT TEXT CONTENT */}
+        
           <div className="max-w-[422px] w-full flex flex-col mt-[50px] lg:mt-[223px] px-4 max-sm:px-0 lg:ml-[100px] xl:ml-[100px]">
             <div className="flex flex-col items-center lg:items-start xl:items-start">
               <h2 className="text-2xl sm:text-3xl lg:text-[40px] mb-[20px] text-center lg:text-left xl:text-left xl:leading-[120%] text-[#3A3A3A] xl:mb-[7px] font-bold max-w-full">
